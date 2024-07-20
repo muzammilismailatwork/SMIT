@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(0, 0, 0, 0.726);
+
+h1{
+    color: white;
+}}
+.hw{
+    height: 60px;
+    width: 60px;
+}
+.uperline{
+    height: 480px;
+    width: 515px;
+    background-color: rgb(40, 40, 51);
+    display: flex;
+    padding-top: 17px;
+}
+.size{
+    font-size: 45px;
+    text-align: center;
+}
+.num{
+    padding: 5px;
+    color: white;
+}
+.alpha{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    display:flex;
+    width: 515px;
+    background-color: rgb(40, 40, 51) ;
+}
+.subnum-8{
+    margin-top: 18px;
+}
+.subnum-7{
+    margin-top: 44px;
+}
+.subnum-6{
+    margin-top: 40px;
+}
+.subnum-5{
+    margin-top: 41px;
+}
+.subnum-4{
+    margin-top: 40px;
+}
+.subnum-3{
+    margin-top: 46px;
+}
+.subnum-2{
+    margin-top: 40px;
+}
+.subnum-1{
+    margin-top: 40px;
+}
+.subalpha-A{
+    margin-left: 40px;
+}
+.subalpha-B{
+    margin-left: 50px;
+}
+.subalpha-C{
+    margin-left: 50px;
+}
+.subalpha-D{
+    margin-left: 50px;
+}
+.subalpha-E{
+    margin-left: 50px;
+}
+.subalpha-F{
+    margin-left: 50px;
+}
+.subalpha-G{
+    margin-left: 50px;
+}
+.subalpha-H{
+    margin-left: 48px;
+}
+.circle{
+    font-size: 13px;
+    margin-left: 25px;
+}

@@ -1,0 +1,129 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010718;
+    overflow: hidden;
+} */
+.container{
+    width: 246px;
+    overflow: hidden;
+}
+.pd{
+    padding-top: 300px;
+}
+.container .text{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.container .text.first-text{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading{
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+.paragraph{
+    color: black;
+    font-size: 20px;
+}
+.text.sec-text:before{
+    font-size: 50px;
+    font-weight: bold;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00b4d8;
+    border-left: 2px solid black;
+    animation: animate 4s steps(12) infinite;
+    
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+.main-form {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d7dbdb; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
