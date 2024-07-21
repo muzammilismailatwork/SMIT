@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    background-color: rgba(255 255 255 0.8);
+}
+.navBar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.navBar li{
+    margin: 15px;
+}
+.appleImg{
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    top: -4px;
+}
+.hero{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #f5f5f7;
+    text-align: center;
+    height: 600px;
+}
+.hero button{
+    background-color: transparent;
+    color: #06c;
+    font-size: 1rem;
+    border: 1px solid #06c;
+    padding: 11px 21px;
+    border-radius: 30px;
+    position: relative;
+    left: -301px;
+    top: 30px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: #06c;
+    color: white;
+}
+.hero2{
+    margin-top: 20px;
+    background-color: #f5f5f7;
+    text-align: center;
+}
+.text{
+    padding-top: 50px;
+}
+.text h1{
+    font-size: 3rem;
+}
+.text p{
+    font-size: 1.6rem;
+}
+.macButton{
+    padding-top: 20px;
+}
+.learn{
+    background-color: #06c;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid #06c;
+    padding: 11px 21px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.buy{
+    background-color: transparent;
+    color: #06c;
+    font-size: 1rem;
+    border: 1px solid #06c;
+    padding: 11px 21px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.buy:hover{
+    background-color: #06c;
+    color: white;
+}
