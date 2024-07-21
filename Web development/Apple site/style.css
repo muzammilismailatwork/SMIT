@@ -45,7 +45,7 @@
     color: white;
 }
 .hero2{
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #f5f5f7;
     text-align: center;
 }
@@ -58,7 +58,7 @@
 .text p{
     font-size: 1.6rem;
 }
-.macButton{
+.Button{
     padding-top: 20px;
 }
 .learn{
@@ -84,8 +84,107 @@
     color: white;
 }
 .hero3{
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #000;
     color: white;
     text-align: center;
+}
+.promos{
+    height: 600px;
+    background-color: white;
+    display: flex;
+    margin: 10px 10px;
+}
+.promoText{
+    padding-top: 50px;
+}
+.promoText h1{
+    font-size: 2rem;
+}
+.promoText p{
+    font-size: 1.2rem;
+}
+.promo1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Assets/promo1.jpg);
+    background-size: cover;
+    margin: 5px;
+    color: white;
+}
+.learnPromo1{
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 11px 21px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.buyPromo1{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 11px 21px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.buyPromo1:hover{
+    background-color: white;
+    color: black;
+}
+.promo2{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Assets/promo2.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+.textPromo2{
+    font-size: 20px;
+    color: #6e6e73;   
+}
+.promo3{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Assets/promo3.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+    margin: 5px;
+    color: white;
+}
+.promo4{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Assets/promo4.jpg);
+    background-size: cover;
+    background-position-x: -70px;
+    margin: 5px;
+    color: white;
+}
+.promo5{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Assets/promo5.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+    margin: 5px;
+}
+.promo6{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Assets/promo6.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+    margin: 5px;
+}
+.textPromo4{
+    color: red;
 }
