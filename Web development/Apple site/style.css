@@ -188,3 +188,14 @@
 .textPromo4{
     color: red;
 }
+.contant{
+    background-color: rgb(245, 245, 247);
+    margin: 15px;
+    padding: 20px 0px;
+}
+.contant p{
+    
+    margin: 20px 150px;
+    color: #6e6e73;
+    font-size: 13px;
+}
