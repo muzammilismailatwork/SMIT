@@ -188,14 +188,46 @@
 .textPromo4{
     color: red;
 }
-.contant{
+.content{
     background-color: rgb(245, 245, 247);
-    margin: 15px;
+    margin: 15px 15px 0px 15px;
     padding: 20px 0px;
 }
-.contant p{
+.content p{
     
     margin: 20px 150px;
     color: #6e6e73;
     font-size: 13px;
+}
+.line{   
+    width: 100%;
+}
+.line hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer{
+    background-color: rgb(245, 245, 247);
+    margin: 0px 15px 15px 15px;
+}
+.columns{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 130px;
+}
+.columns ol li{
+    list-style: none;
+    color: #6e6e73;
+    font-size: 13px;
+    margin: 0px 10px 10px 10px;
+}
+.heading{
+    padding: 10px;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+}
+.columns ol li:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
