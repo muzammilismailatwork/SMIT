@@ -24,3 +24,37 @@
     border-radius: 50px;
     background-color: transparent;
 }
+.register_btn{
+    padding: 5px 10px;
+    margin: 0px 1px;
+    color: #8dc63f !important;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+}
+.id_card_btn{
+    padding: 5px 10px;
+    margin: 0px 1px;
+    color: #0d6db7 !important;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+}
+.result_btn{
+    padding: 5px 10px;
+    margin: 0px 1px;
+    color: #0d6db7 !important;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+    
+}
+.inputBorder{
+    border-color: #8dc63f !important;
+    font-size: 0.9rem !important;
+    height: 54px;
+}
+.labelText{
+    font-size: 0.9rem !important;
+    color: #0d6db7;
+}
+.inputBorder:hover{
+    border-color: #0d6db7 !important;
+}
