@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container-fluid">
     <!-- header -->
     <div class="row">
     <div class="col-md-1"></div>
@@ -141,10 +142,81 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <label class="labelText my-2">Address</label>
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control inputBorder" placeholder="Address" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="input-group-lg">
+                    <label class="labelText my-2">Last qualification</label>
+                    <select class="form-select inputBorder" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Last qualification</option>
+                      <option value="1">Matric</option>
+                      <option value="2">Intermediate</option>
+                      <option value="3">Undergraduate</option>
+                      <option value="4">Graduate</option>
+                      <option value="5">Master</option>
+                      <option value="6">PHD</option>
+                      <option value="7">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="input-group-lg">
+                    <label class="labelText my-2">Do you have laptop?</label>
+                    <select class="form-select inputBorder" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Do you have laptop?</option>
+                      <option value="1">Yes</option>
+                      <option value="2">No</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="mb-3 d-flex flex-column">
+                    <label class="labelText my-2">Do you have laptop?</label>
+                    
+                    <input class="" type="file">
+                    <ul>
+                    <li>With white or blue background</li>
+                    <li>File size must be less than 1MB</li>
+                    <li>File type: jpg, jpeg, png</li>
+                    <li>Upload your recent passport size picture</li>
+                    <li>Your Face should be clearly visible without any Glasses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col listText">
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+                    <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                    <li>Defiance will render my admission canceled at any point in time.</li>
+                    <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                    <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 ">
+                <button class="submitBtn rounded mb-5">Submit</button>
+            </div>
+        </div>
     </div>
     <div class="col-md-1"></div>
     </form>
     <!-- inputs end -->
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
