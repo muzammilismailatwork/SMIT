@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Saylani Welfare International</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -23,13 +23,13 @@
         </div>
         <!-- text, icons & button -->
         <div class="row">
-            <div class="col-md-4 d-flex justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center order-md-3 ">
                 <img src="./assets/facebook.png" alt="" class="icon mx-2 img-fluid">
                 <img src="./assets/instagram.png" alt="" class="icon mx-2 img-fluid">
                 <img src="./assets/youtube.png" alt="" class="icon mx-2 img-fluid">
             </div>
-            <div class="col-md-4 text-center"><h3>Registration Form - SMIT</h3></div>
-            <div class="col-md-4 text-center"><button class="portel_btn py-1 px-3"><i class="fa-sharp fa-solid fa-user-graduate"></i> Student portel</button></div>
+            <div class="col-md-4 text-center order-md-2"><h3>Registration Form - SMIT</h3></div>
+            <div class="col-md-4 text-center order-md-1"><button class="portel_btn py-1 px-3"><i class="fa-sharp fa-solid fa-user-graduate"></i> Student portel</button></div>
         </div>
         <div class="row">
             <div class="col text-center">
@@ -38,10 +38,10 @@
         </div>
         <!-- buttons -->
         <div class="row">
-            <div class="col d-flex justify-content-center">
-                <button class="register_btn">Registration</button>
-                <button class="id_card_btn">Download ID Card</button>
-                <button class="result_btn">Result</button>
+            <div class="col d-flex justify-content-center btn">
+                <a href="./index.html" class="register_btn" style="color: #8dc63f !important;">Registration</a>
+                <a href="./download_card.html" class="id_card_btn" style="color: #0d6db7 !important;">Download ID Card</a>
+                <a href="./result.html" class="result_btn" style="color: #0d6db7 !important;">Result</a>
             </div>
         </div>
         <hr>
@@ -180,19 +180,23 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <div class="mb-3 d-flex flex-column">
-                    <label class="labelText my-2">Do you have laptop?</label>
-                    
-                    <input class="" type="file">
-                    <ul>
+            <label class="labelText my-2">Do you have laptop?</label>
+            <div class="small">
+            <div class="col-md-1 col-sm-6">
+                <div class="upload d-flex flex-column">
+                    <input class="fileUpload" type="file" id="uploadBtn">
+                    <label class="labelText" for="uploadBtn">+ Upload</label>
+                </div>
+            </div>
+            <div class="col-md-11 col-sm-6">
+                <ul>
                     <li>With white or blue background</li>
                     <li>File size must be less than 1MB</li>
                     <li>File type: jpg, jpeg, png</li>
                     <li>Upload your recent passport size picture</li>
                     <li>Your Face should be clearly visible without any Glasses</li>
-                    </ul>
-                </div>
+                </ul>
+            </div>
             </div>
         </div>
         <hr>

@@ -9,6 +9,12 @@
     background-size: cover;
     width: 100%;
 }
+.btn:hover{
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+}
 .logo img{
     height: 85%;
     width: 80%;
@@ -27,7 +33,7 @@
 .register_btn{
     padding: 5px 10px;
     margin: 0px 1px;
-    color: #8dc63f !important;
+    color: #0d6db7;
     border: 1px solid #f0f0f0;
     background-color: #fafafa;
 }
@@ -71,4 +77,52 @@
 }
 ul{
     list-style: none;
+}
+input[type="file"]{
+    display: none;
+}
+.upload label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #f8f9fa;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 1px dashed black;
+    font-size: 0.9rem !important;
+    border-radius: 5%;
+    user-select: none;
+    cursor: pointer;
+}
+.upload label:hover{
+    border: 1px dashed #0d6db7;
+}
+
+.small{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .upload label{
+        color: black;
+        background: #f8f9fa;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        border: 1px dashed black;
+        font-size: 0.6rem !important;
+        border-radius: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .icon{
+        height: 55%;
+        width: 7%;
+    }
+        
+    
 }
