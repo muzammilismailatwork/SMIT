@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.imgSizing{
+    height: 35px;
+    width: 170px;
+    border: none;
+}
+.listStyle{
+    margin: 0 auto;
+}
+li a{
+    color: black !important;
+}
+.postJobs{
+    color: blue !important;
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px !important;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: -.02em;
+    background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.mainPara{
+    font-size: 21px;
+    font-weight: 400;
+}
+.jobsBtn{   
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgb(104, 81, 255);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.jobsBtn:hover{
+    cursor: pointer;
+    background-color: rgb(70, 41, 255);
+}
+.background{
+    background-color: #f8f4fc;
+}
+.popularSearch{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: -.02em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.tags{
+    color: rgb(104, 81, 255) !important;
+    border: 1px solid rgb(104, 81, 255) !important;
+    font-size: 0.857rem;
+    font-weight: 700;
+}
+.tags:hover{
+    background-color: #ffffff;
+}
+.imageArtWork img{
+    width: 100%;
+}
