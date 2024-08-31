@@ -22,14 +22,14 @@
             <div class="col-md-4"></div>
         </div>
         <!-- text, icons & button -->
-        <div class="row">
-            <div class="col-md-4 d-flex justify-content-center order-md-3 ">
+        <div class="row flex-column-reverse flex-sm-row">
+            <div class="col-md-4 d-flex justify-content-center">
                 <img src="./assets/facebook.png" alt="" class="icon mx-2 img-fluid">
                 <img src="./assets/instagram.png" alt="" class="icon mx-2 img-fluid">
                 <img src="./assets/youtube.png" alt="" class="icon mx-2 img-fluid">
             </div>
-            <div class="col-md-4 text-center order-md-2"><h3>Registration Form - SMIT</h3></div>
-            <div class="col-md-4 text-center order-md-1"><button class="portel_btn py-1 px-3"><i class="fa-sharp fa-solid fa-user-graduate"></i> Student portel</button></div>
+            <div class="col-md-4 text-center"><h3>Registration Form - SMIT</h3></div>
+            <div class="col-md-4 text-center"><button class="portel_btn py-1 px-3"><i class="fa-sharp fa-solid fa-user-graduate"></i> Student portel</button></div>
         </div>
         <div class="row">
             <div class="col text-center">
@@ -50,41 +50,24 @@
         
     </div>    
     </div>
-    <!-- header end -->
 
-    <!-- inputs start -->
-
-    <form class="row g-3">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-         <div class="row">
-            <div class="col-md-6">
-                <div class="input-group-lg">
-                    <label class="labelText my-2">Select city</label>
-                    <select class="form-select inputBorder" id="floatingSelect" aria-label="Floating label select example">
-                      <option selected>Select city</option>
-                      <option value="1">Karachi</option>
-                      <option value="2">Faisalabad</option>
-                      <option value="3">Peshawer</option>
-                    </select>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                <label class="labelText my-2">CNIC (Which you provided during form submission)</label>
+                <div class="input-group input-group-lg">
+                <input type="text" class="form-control inputBorder rounded" placeholder="CNIC (Which you provided during form submission)" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                <button class="submitBtn rounded my-2">Submit</button>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="input-group-lg">
-                    <label class="labelText my-2">Select course or event</label>
-                    <select class="form-select inputBorder" id="floatingSelect" aria-label="Floating label select example">
-                      <option selected>Select course or event</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                </div>
+                <div class="col-md-3"></div>
             </div>
         </div>
+        <div class="col-md-1"></div>
     </div>
-    <div class="col-md-1"></div>
-    </form>
-    <!-- inputs end -->
+    
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
